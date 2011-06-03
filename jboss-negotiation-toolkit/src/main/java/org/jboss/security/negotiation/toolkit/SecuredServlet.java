@@ -34,7 +34,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.jboss.security.SecurityAssociation;
+//import org.jboss.security.SecurityAssociation;
 
 /**
  * A simple servlet to be secured and output information on the
@@ -68,11 +68,12 @@ public class SecuredServlet extends HttpServlet
       writer.println("    <h5>User Principal</h5>");
       writeObject(req.getUserPrincipal(), writer);
 
-      writer.println("    <h5>Caller Principal</h5>");
-      writeObject(SecurityAssociation.getCallerPrincipal(), writer);
+      // TODO - Re-instate equivalent behaviour for AS7
+      //writer.println("    <h5>Caller Principal</h5>");
+      //writeObject(SecurityAssociation.getCallerPrincipal(), writer);
 
-      writer.println("    <h5>Subject</h5>");
-      writeObject(SecurityAssociation.getSubject(), writer);
+      //writer.println("    <h5>Subject</h5>");
+      //writeObject(SecurityAssociation.getSubject(), writer);
 
       writer.println("  </body>");
       writer.println("</html>");

@@ -39,24 +39,8 @@
 
     <!-- Global dependencies -->
     <dependency>
-      <groupId>org.jboss</groupId>
-      <artifactId>jboss-common-core</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.jbossas</groupId>
-      <artifactId>jboss-as-security</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.logging</groupId>
-      <artifactId>jboss-logging</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.mx</groupId>
-      <artifactId>jboss-j2se</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.security</groupId>
-      <artifactId>jbosssx</artifactId>
+       <groupId>org.picketbox</groupId>
+       <artifactId>picketbox</artifactId>
     </dependency>
   </dependencies>
 

@@ -42,26 +42,7 @@
     </dependency>
 
     <!-- Global dependencies -->
-    <dependency>
-      <groupId>org.jboss.jbossas</groupId>
-      <artifactId>jboss-as-security</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.logging</groupId>
-      <artifactId>jboss-logging</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.mx</groupId>
-      <artifactId>jboss-j2se</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.security</groupId>
-      <artifactId>jbosssx</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.security</groupId>
-      <artifactId>jboss-security-spi</artifactId>
-    </dependency>
+
 
 
   </dependencies>
